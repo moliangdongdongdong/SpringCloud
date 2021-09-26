@@ -1,0 +1,13 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: SpringBootService
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7000/eureka/    # 指定注册中心的地址
+  instance:
+    preferIpAddress: true
